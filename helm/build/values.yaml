@@ -1,0 +1,15 @@
+app:
+  name: ainekeenan-poi-map-app
+  namespace: ainekeenan
+  cluster: .apps.rosa916.9nln.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/rosa916-rvhvd/ainekeenan-frontend
+  org: rosa916-rvhvd
+  name: ainekeenan-frontend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: ainekeenan/poi-map-app
+  tag: latest
